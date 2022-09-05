@@ -1,0 +1,82 @@
+body{
+	background-color: black;
+}
+#audiofondo{
+	display: none
+	}
+.pong,
+.pong * {
+	position: absolute;
+}
+
+.pong {
+	width: 1290px;
+	height: 600px;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	box-shadow: 0 0 0 4px #fff;
+}
+
+.paddle {
+	width: 40px;
+	height: 150px;
+	left: 0;
+	top: 0;
+}
+.paddle-player {
+	/*background: hsl(160, 100%, 52%);*/
+	background: linear-gradient(90deg,transparent,#6AE9C5);
+	box-shadow: 0 0 5px #6AE9C5,
+				0 0 25px #6AE9C5,
+				0 0 50px #6AE9C5,
+				0 0 200px #6AE9C5;
+	border-radius: 50px;
+}
+.paddle-enemy {
+	
+		background: linear-gradient(270deg,transparent,#FB24D7);
+
+		box-shadow: 0 0 5px #FB24D7,
+				0 0 25px #FB24D7,
+				0 0 50px #FB24D7,
+				0 0 200px #FB24D7;
+	border-radius: 50px;
+
+}
+.score {
+	font: bold 4em/1 'Roboto Mono', monospace;
+	top: 80px;
+}
+.score-player {
+	color: hsl(160, 100%, 52%);
+	left: 180px;
+	
+}
+.score-enemy {
+	color: hsl(302, 100%, 52%);
+	right: 180px;
+
+}
+.net {
+	background: #666;
+	width: 4px;
+	height: 100%;
+	left: 50%;
+	top: 0;
+	margin-left: -2px;
+}
+.ball {
+	background: #fff;
+	width: 40px;
+	height: 40px;
+	left: 0;
+	top: 0;
+	border-radius: 50%;
+	box-shadow: 0 0 5px #fff,
+				0 0 25px #fff,
+				0 0 50px #fff,
+				0 0 200px #fff;
+}
